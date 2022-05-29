@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tiki 2021</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/base.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <!-- header -->
+      <header class="header">
+        <div class="grid">
+          <div class="tiki__logo-home">
+            <a href="/" class="tiki__logo-link">
+              <img
+                src="./assets/img/tiki-logo.png"
+                alt=""
+                class="tiki__logo-img"
+              />
+            </a>
+
+            <a href="/" class="tiki__logo-freeship">
+              <img
+                src="./assets/img/tiki-freeship.png"
+                alt=""
+                class="tiki__freeship-img"
+              />
+            </a>
+          </div>
+
+          <div class="tiki__category-product">
+            <i class="ti-menu"></i>
+            <span class="tiki__cate-name">Danh Mục</span>
+            <span class="tiki__cate-name-product">Sản Phẩm</span>
+            <i class="ti-angle-down tiki__cate-show"></i>
+            <div class="tiki__product">
+              <a href="" class="tiki__product-link"> tất cả thịt, rau củ </a>
+              <a href="" class="tiki__product-link"> hàng đông lạnh </a>
+              <a href="" class="tiki__product-link"> trái cây </a>
+              <a href="" class="tiki__product-link"> hải sản </a>
+              <a href="" class="tiki__product-link"> gạo </a>
+            </div>
+          </div>
+
+          <div class="tiki__header-search">
+            <input
+              type="text"
+              class="tiki__header-search-input"
+              placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ..."
+            />
+          </div>
+
+          <div class="tiki__search-btn-form">
+            <a href="" class="tiki__search-btn-form-link">
+              <i class="ti-search tiki__search-btn-icon"></i>
+              <span class="tiki__search-text">Tìm kiếm</span>
+            </a>
+          </div>
+
+          <div class="tiki__user-access">
+            <i class="ti-user tiki__user-icon"></i>
+            <div class="tiki__user-sign">
+              <span class="tiki__user-sign-in-out">Đăng nhập / Đăng ký</span>
+              <span class="tiki__user-account">Tài khoản </span>
+              <img
+                src="https://salt.tikicdn.com/ts/upload/d7/d4/a8/34939af2da1ceeeae9f95b7485784233.png"
+                alt=""
+                class="arrow"
+              />
+            </div>
+
+            <div class="access-form">
+              <button class="user-btn user-btn-normal">Đăng nhập</button>
+
+              <button class="user-btn user-btn-normal">Tạo tài khoản</button>
+
+              <button class="user-btn-fb user-btn">
+                <i class="ti-facebook"></i> Đăng nhập bằng Facebook
+              </button>
+
+              <button class="user-btn-google user-btn">
+                <i class="ti-google"></i> Đăng nhập bằng Google
+              </button>
+
+              <button class="user-btn-zalo user-btn">
+                <i class="ti-themify-favicon-alt"></i> Đăng nhập bằng Zalo
+              </button>
+            </div>
+          </div>
+
+          <div class="tiki__cart">
+            <i class="ti-shopping-cart tiki__cart-icon"></i>
+            <span class="tiki__cart-quantity">3</span>
+            <span class="tiki__cart-name">Giỏ hàng</span>
+            <a href="/" class="tiki__seller">
+              <img src="./assets/img/icon-seller.svg" alt="" class="icon" />
+              <span class="text">Bán hàng cùng Tiki</span></a
+            >
+          </div>
+        </div>
+      </header>
+      <!-- content -->
+      <div class="container">
+        <div class="grid-full-width">
+          <div class="grid__row">
+            <div class="category-tab-bar">
+              <ul class="category-tab-bar-list">
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link"
+                    >Thịt, rau củ</a
+                  >
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Bách hóa</a>
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Nhà cửa</a>
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Thiết bị số</a>
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Điện thoại</a>
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Mẹ & Bé</a>
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Làm đẹp</a>
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Gia dụng</a>
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link"
+                    >Thời trang nữ</a
+                  >
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link"
+                    >Thời trang nam</a
+                  >
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Giày nữ</a>
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Túi nữ</a>
+                </li>
+                <li class="category-tab-bar-item">
+                  <a href="/" class="category-tab-bar-item-link">Giày nam</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- banner -->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="home__banner">
+              <div class="grid-col-4">
+                <img
+                  src="./assets/img/home__banner1.webp"
+                  alt=""
+                  class="home__banner-img home__banner-img-1"
+                />
+              </div>
+              <div class="grid-col-2">
+                <img
+                  src="./assets/img/home__banner2.webp"
+                  alt=""
+                  class="home__banner-img home__banner-img-2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- flash sale -->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="home__deal">
+              <div class="home__deal-flash">
+                <div class="home__deal-flash-today">
+                  <img src="./assets/img/giasoc.svg" alt="" class="img-text" />
+                  <img
+                    src="./assets/img/dealFlashIcon.svg"
+                    alt=""
+                    class="img-flash"
+                  />
+                  <img src="./assets/img/homnay.svg" alt="" class="img-text" />
+                </div>
+                <div class="home__deal-flash-time"></div>
+              </div>
+              <div class="home__deal-product">
+                <div class="grid__row">
+                  <div class="grid__col-1">
+                    <a href="" class="product-item-link">
+                      <img
+                        src="./assets/img/deal-product-1.webp"
+                        alt=""
+                        class="product-item"
+                      />
+                      <div class="home__deal-freeship">
+                        <img
+                          src="./assets/img/freeship-home-deal.png"
+                          alt=""
+                          class="home__deal-freeship-img"
+                        />
+                      </div>
+                      <div class="home__deal-price">999.999 USD</div>
+                      <div class="home__deal-quantity">
+                        <div class="home__deal-progress"></div>
+                        <span class="home__deal-text">Đã bán 1</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="grid__col-1">
+                    <a href="" class="product-item-link">
+                      <img
+                        src="./assets/img/deal-product-2.webp"
+                        alt=""
+                        class="product-item"
+                      />
+                      <div class="home__deal-freeship">
+                        <img
+                          src="./assets/img/freeship-home-deal.png"
+                          alt=""
+                          class="home__deal-freeship-img"
+                        />
+                      </div>
+                      <div class="home__deal-price">545.999 USD</div>
+                      <div class="home__deal-quantity">
+                        <div class="home__deal-progress"></div>
+                        <span class="home__deal-text">Đã bán 2</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="grid__col-1">
+                    <a href="" class="product-item-link">
+                      <img
+                        src="./assets/img/deal-product-3.webp"
+                        alt=""
+                        class="product-item"
+                      />
+                      <div class="home__deal-freeship">
+                        <img
+                          src="./assets/img/freeship-home-deal.png"
+                          alt=""
+                          class="home__deal-freeship-img"
+                        />
+                      </div>
+                      <div class="home__deal-price">459.459 USD</div>
+                      <div class="home__deal-quantity">
+                        <div class="home__deal-progress"></div>
+                        <span class="home__deal-text">Đã bán 3</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="grid__col-1">
+                    <a href="" class="product-item-link">
+                      <img
+                        src="./assets/img/deal-product-4.webp"
+                        alt=""
+                        class="product-item"
+                      />
+                      <div class="home__deal-freeship">
+                        <img
+                          src="./assets/img/freeship-home-deal.png"
+                          alt=""
+                          class="home__deal-freeship-img"
+                        />
+                      </div>
+                      <div class="home__deal-price">415.235 USD</div>
+                      <div class="home__deal-quantity">
+                        <div class="home__deal-progress"></div>
+                        <span class="home__deal-text">Đã bán 4</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="grid__col-1">
+                    <a href="" class="product-item-link">
+                      <img
+                        src="./assets/img/deal-product-5.webp"
+                        alt=""
+                        class="product-item"
+                      />
+                      <div class="home__deal-freeship">
+                        <img
+                          src="./assets/img/freeship-home-deal.png"
+                          alt=""
+                          class="home__deal-freeship-img"
+                        />
+                      </div>
+                      <div class="home__deal-price">458.319 USD</div>
+                      <div class="home__deal-quantity">
+                        <div class="home__deal-progress"></div>
+                        <span class="home__deal-text">Đã bán 5</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="grid__col-1">
+                    <a href="" class="product-item-link">
+                      <img
+                        src="./assets/img/deal-product-6.webp"
+                        alt=""
+                        class="product-item"
+                      />
+                      <div class="home__deal-freeship">
+                        <img
+                          src="./assets/img/freeship-home-deal.png"
+                          alt=""
+                          class="home__deal-freeship-img"
+                        />
+                      </div>
+                      <div class="home__deal-price">454.147 USD</div>
+                      <div class="home__deal-quantity">
+                        <div class="home__deal-progress"></div>
+                        <span class="home__deal-text">Đã bán 6</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- home brand -->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="home__brand">
+              <div class="grid__col-1">
+                <a href="" class="home__brand-link">
+                  <img
+                    src="./assets/img/home__brand-1.webp"
+                    alt=""
+                    class="home__brand-img"
+                  />
+                </a>
+              </div>
+              <div class="grid__col-4">
+                <a href="" class="home__brand_link">
+                  <img
+                    src="./assets/img/home__brand-2.webp"
+                    alt=""
+                    class="home__brand-img img-middle"
+                  />
+                </a>
+              </div>
+              <div class="grid__col-1">
+                <a href="" class="home__brand-link">
+                  <img
+                    src="./assets/img/home__brand-3.webp"
+                    alt=""
+                    class="home__brand-img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- quick link -->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="home__quick-link">
+              <a href="" class="item">
+                <img
+                  src="./assets/img/quick-link-1.webp"
+                  alt=""
+                  class="item-img"
+                />
+                <span class="text">Bí kíp săn sale</span>
+              </a>
+              <a href="" class="item">
+                <img
+                  src="./assets/img/quick-link-2.webp"
+                  alt=""
+                  class="item-img"
+                />
+                <span class="text">Thịt, rau củ</span>
+              </a>
+              <a href="" class="item">
+                <img
+                  src="./assets/img/quick-link-3.webp"
+                  alt=""
+                  class="item-img"
+                />
+                <span class="text">Mã giảm giá</span>
+              </a>
+              <a href="" class="item">
+                <img
+                  src="./assets/img/quick-link-4.webp"
+                  alt=""
+                  class="item-img"
+                />
+                <span class="text">Dịch vụ & Tiện ích</span>
+              </a>
+              <a href="" class="item">
+                <img
+                  src="./assets/img/quick-link-5.webp"
+                  alt=""
+                  class="item-img"
+                />
+                <span class="text">Gói hội viên</span>
+              </a>
+              <a href="" class="item">
+                <img
+                  src="./assets/img/quick-link-6.webp"
+                  alt=""
+                  class="item-img"
+                />
+                <span class="text">Giảm giá đến 50%</span>
+              </a>
+              <a href="" class="item">
+                <img
+                  src="./assets/img/quick-link-7.webp"
+                  alt=""
+                  class="item-img"
+                />
+                <span class="text">Hoàn tiền 15%</span>
+              </a>
+              <a href="" class="item">
+                <img
+                  src="./assets/img/quick-link-8.webp"
+                  alt=""
+                  class="item-img"
+                />
+                <span class="text">Ưu đãi thanh toán</span>
+              </a>
+              <a href="" class="item">
+                <img
+                  src="./assets/img/quick-link-9.webp"
+                  alt=""
+                  class="item-img"
+                />
+                <span class="text">Hẹn giao & lắp đặt</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- home banner discount -->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="home__banner-discount">
+              <a href="" class="home__banner-discount-link">
+                <img
+                  src="./assets/img/home__banner-discount-1.webp"
+                  alt=""
+                  class="home__banner-discount-img"
+                />
+              </a>
+              <a href="" class="home__banner-discount-link">
+                <img
+                  src="./assets/img/home__banner-discount-2.webp"
+                  alt=""
+                  class="home__banner-discount-img"
+                />
+              </a>
+              <a href="" class="home__banner-discount-link">
+                <img
+                  src="./assets/img/home__banner-discount-3.webp"
+                  alt=""
+                  class="home__banner-discount-img"
+                />
+              </a>
+              <a href="" class="home__banner-discount-link">
+                <img
+                  src="./assets/img/home__banner-discount-4.webp"
+                  alt=""
+                  class="home__banner-discount-img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- home banner widget -->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="home__banner-widget">
+              <div class="widget__header">
+                <div class="main-title">
+                  <img src="./assets/img/icon-widget.png" alt="" class="img" />
+                  <span class="text">Thương Hiệu Chính Hãng</span>
+                </div>
+                <a href="" class="see-more-link">XEM THÊM</a>
+              </div>
+              <div class="widget__main">
+                <a href="" class="main__item">
+                  <img
+                    src="./assets/img/main-widget-item-1.webp"
+                    alt=""
+                    class="img"
+                  />
+                </a>
+                <a href="" class="main__item">
+                  <img
+                    src="./assets/img/main-widget-item-2.webp"
+                    alt=""
+                    class="img"
+                  />
+                </a>
+              </div>
+              <div class="widget__brand">
+                <div class="grid__col-1">
+                  <a href="" class="brand-link">
+                    <img
+                      src="./assets/img/widget__brand-1.webp"
+                      alt=""
+                      class="img"
+                    />
+                    <span class="text">Giảm tới 35%</span>
+                  </a>
+                </div>
+                <div class="grid__col-1">
+                  <a href="" class="brand-link">
+                    <img
+                      src="./assets/img/widget__brand-2.webp"
+                      alt=""
+                      class="img"
+                    />
+                    <span class="text"> Đặt gạch siêu phẩm</span>
+                  </a>
+                </div>
+                <div class="grid__col-1">
+                  <a href="" class="brand-link">
+                    <img
+                      src="./assets/img/widget__brand-3.webp"
+                      alt=""
+                      class="img"
+                    />
+                    <span class="text">Giảm ngay đến 30%</span>
+                  </a>
+                </div>
+                <div class="grid__col-1">
+                  <a href="" class="brand-link">
+                    <img
+                      src="./assets/img/widget__brand-4.webp"
+                      alt=""
+                      class="img"
+                    />
+                    <span class="text">Săn deal nửa giá</span>
+                  </a>
+                </div>
+                <div class="grid__col-1">
+                  <a href="" class="brand-link">
+                    <img
+                      src="./assets/img/widget__brand-5.webp"
+                      alt=""
+                      class="img"
+                    />
+                    <span class="text">Quà tăng 0đ</span>
+                  </a>
+                </div>
+                <div class="grid__col-1">
+                  <a href="" class="brand-link">
+                    <img
+                      src="./assets/img/widget__brand-6.webp"
+                      alt=""
+                      class="img"
+                    />
+                    <span class="text">Tiệc deal colgate</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- top category product -->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="home__top-category-product">
+              <div class="home__top-category-product-header">
+                <span class="text">Danh Mục Nổi Bật</span>
+              </div>
+              <div class="home__top-category-product-body">
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-1.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Thực phẩm tươi sống</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-2.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Rau củ quả</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-3.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Giày thể thao nam</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-4.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Balo</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-5.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Điện thoại Smartphone</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-6.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Bánh</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-7.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Sách tư duy - kỹ năng sống</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-8.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Nước giặt</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-9.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Bánh trung thu</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-10.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Nước rửa chén</span>
+                </a>
+              </div>
+              <div class="home__top-category-product-body martop-0">
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-1.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Thực phẩm tươi sống</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-2.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Rau củ quả</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-3.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Giày thể thao nam</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-4.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Balo</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-5.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Điện thoại Smartphone</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-6.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Bánh</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-7.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Sách tư duy - kỹ năng sống</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-8.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Nước giặt</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-9.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Bánh trung thu</span>
+                </a>
+                <a href="" class="item">
+                  <img
+                    src="./assets/img/home__top-quick-link-10.webp"
+                    alt=""
+                    class="item-img"
+                  />
+                  <span class="text">Nước rửa chén</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- shopping trend -->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="shopping__trend">
+              <div class="shopping__trend-header">
+                <div class="header-title">
+                  <img src="./assets/img/icon-trend.png" alt="" class="img" />
+                  <span class="text">Xu hướng mua sắm</span>
+                </div>
+                <a href="" class="see-more-link">XEM THÊM</a>
+              </div>
+              <div class="shopping__trend-product">
+                <a href="" class="shopping__trend-product-links">
+                  <div class="shopping__trend-items">
+                    <span class="product-name">Điện thoại Smartphone</span>
+                    <span class="discount">Giảm đến 44%</span>
+                    <div class="img-trend">
+                      <img
+                        src="./assets/img/shopping-trend 1.webp"
+                        alt=""
+                        class="shopping__trend-img"
+                      />
+                      <img
+                        src="./assets/img/shopping-trend 1-1.webp"
+                        alt=""
+                        class="shopping__trend-img"
+                      />
+                    </div>
+                  </div>
+                </a>
+                <a href="" class="shopping__trend-product-links">
+                  <div class="shopping__trend-items">
+                    <span class="product-name">Sách tư duy-Kỹ năng sống</span>
+                    <span class="discount">Giảm đến 78%%</span>
+                    <div class="img-trend">
+                      <img
+                        src="./assets/img/shopping-trend 2.webp"
+                        alt=""
+                        class="shopping__trend-img"
+                      />
+                      <img
+                        src="./assets/img/shopping-trend 2-2.webp"
+                        alt=""
+                        class="shopping__trend-img"
+                      />
+                    </div>
+                  </div>
+                </a>
+                <a href="" class="shopping__trend-product-links">
+                  <div class="shopping__trend-items">
+                    <span class="product-name"
+                      >Truyện ngắn-Tản văn-Tạp văn</span
+                    >
+                    <span class="discount">Giảm đến 72%</span>
+                    <div class="img-trend">
+                      <img
+                        src="./assets/img/shopping-trend 3.webp"
+                        alt=""
+                        class="shopping__trend-img"
+                      />
+                      <img
+                        src="./assets/img/shopping-trend 3-3.webp"
+                        alt=""
+                        class="shopping__trend-img"
+                      />
+                    </div>
+                  </div>
+                </a>
+                <a href="" class="shopping__trend-product-links">
+                  <div class="shopping__trend-items">
+                    <span class="product-name">Tiểu thuyết</span>
+                    <span class="discount">Giảm đến 59%</span>
+                    <div class="img-trend">
+                      <img
+                        src="./assets/img/shopping-trend 4.webp"
+                        alt=""
+                        class="shopping__trend-img"
+                      />
+                      <img
+                        src="./assets/img/shopping-trend 4-4.webp"
+                        alt=""
+                        class="shopping__trend-img"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- discount pro -->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="discount-pro">
+              <a href="" class="discount-pro-link">
+                <img
+                  src="./assets/img/dis-pro 1.webp"
+                  alt=""
+                  class="dis-pro-img"
+                />
+              </a>
+              <a href="" class="discount-pro-link">
+                <img
+                  src="./assets/img/dis-pro 2.webp"
+                  alt=""
+                  class="dis-pro-img"
+                />
+              </a>
+              <a href="" class="discount-pro-link">
+                <img
+                  src="./assets/img/dis-pro 3.webp"
+                  alt=""
+                  class="dis-pro-img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- main product header-->
+        <div class="grid">
+          <div class="grid__row">
+            <div class="main-product-header">
+              <div class="title">gợi ý hôm nay</div>
+              <div class="choice">
+                <a href="#" class="choice-link active">
+                  <img
+                    src="./assets/img/choice-link 1.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <span class="text">Dành cho bạn</span>
+                </a>
+                <a href="#" class="choice-link">
+                  <img
+                    src="./assets/img/choice-link 2.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <span class="text">Sale đến 50%</span>
+                </a>
+                <a href="#" class="choice-link">
+                  <img
+                    src="./assets/img/choice-link 3.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <span class="text">Coupon 30k</span>
+                </a>
+                <a href="#" class="choice-link">
+                  <img
+                    src="./assets/img/choice-link 4.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <span class="text">Deal siêu hot</span>
+                </a>
+                <a href="#" class="choice-link">
+                  <img
+                    src="./assets/img/choice-link 5.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <span class="text">Rẻ vô đối</span>
+                </a>
+                <a href="#" class="choice-link">
+                  <img
+                    src="./assets/img/choice-link 6.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <span class="text">Đi chợ siêu sale</span>
+                </a>
+                <a href="#" class="choice-link">
+                  <img
+                    src="./assets/img/choice-link 7.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <span class="text">Hàng mới</span>
+                </a>
+                <a href="#" class="choice-link">
+                  <img
+                    src="./assets/img/choice-link 8.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <span class="text">Xu hướng thời trang</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 1.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    Bộ dây đàn guitar classic cao cấp Alice A106 - Hàng nguyên
+                    hộp - Hàng chính hãng
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 2.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    Thùng 48 Hộp Sữa Nestlé MILO Nước (180ml / Hộp)
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 3.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    Xe đạp tập thể dục air bike BG Thiết kế mới
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 4.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    Đồng Hồ Thông Minh HUAWEI WATCH GT 3 46mm
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 5.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    2 Mét ron dán cửa chặn khe hở -Thanh dán đáy cửa chống bụi,
+                    chống côn trùng
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 6.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    Lạp Xưởng Tươi Cai Lậy 500gr
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 7.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    Dâu tây Hana Mộc Châu - 0.5KG
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 8.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    [CHỈ GIAO HN] - NEM CUA BỂ HẢI PHÒNG VITOT FOOD (1 khay 12
+                    chiếc)
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 9.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    [HCM] - Ba chỉ Bò Mỹ NKP Hot Pot (500 gram) - được bán bởi
+                    TikiNGON - nhanh 3H
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 10.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    [HCM] - Sữa Tươi Tiệt Trùng Vinamilk 100% Không Đường (1L) -
+                    được bán bởi TikiNGON - nhanh 3H
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 11.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    [HCM] - Cải bẹ xanh (1kg) - được bán bởi TikiNGON - nhanh 3H
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col-1">
+              <div class="products">
+                <div class="product-img">
+                  <img
+                    src="./assets/img/main-product 12.webp"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/freeship-home-deal.png"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+                <div class="cur-status">
+                  <span class="product-name">
+                    Tranh Dán Tường 3D Cao Cấp WB-123
+                  </span>
+                  <span class="product-vote">
+                    <div class="vote-star">
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                      <i class="ti-star"></i>
+                    </div>
+                    <span class="sold"
+                      >|
+                      <div class="len"></div>
+                      Đã bán 69</span
+                    >
+                  </span>
+                  <span class="product-price">
+                    <span class="cur-price">69.000 đ</span>
+                    <span class="cur-discount">15%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="baka">
+              <a href="" class="watch-more">Xem Thêm</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="grid">
+          <div class="grid__row">
+            <div class="top-footer">
+              <div class="block">
+                <h4>Hỗ trợ khách hàng</h4>
+                <span>Hotline: <a href="">1900-6035</a></span>
+                <a href="">(1000 đ/phút, 8-21h kể cả T7, CN)</a>
+                <a href="">Các câu hỏi thường gặp</a>
+                <a href="">Gửi yêu cầu hỗ trợ</a>
+                <a href="">Hướng dẫn đặt hàng</a>
+                <a href="">Phương thức vận chuyển</a>
+                <a href="">Chính sách đổi trả</a>
+                <a href="">Hướng dẫn trả góp</a>
+                <a href="">Chính sách hàng nhập khẩu</a>
+                <span>Hỗ trợ khách hàng <a href="">hotro@tiki.vn</a></span>
+                <span>Báo lỗi bảo mật <a href="">security@tiki.vn</a></span>
+              </div>
+              <div class="block">
+                <h4>Về Tiki</h4>
+                <a href="">Giới thiệu Tiki</a>
+                <a href="">Tuyển dụng</a>
+                <a href="">Chính sách bảo mật thanh toán</a>
+                <a href="">Chính sách bảo mật thông tin cá nhân</a>
+                <a href="">Chính sách giải quyết khiếu nại</a>
+                <a href="">Điều khoản sử dụng</a>
+                <a href="">Giới thiệu Tiki xu</a>
+                <a href="">Tiếp thị liên kết cùng Tiki</a>
+                <a href="">Bán hàng doanh nghiệp</a>
+              </div>
+              <div class="block">
+                <h4>Hợp tác và liên kết</h4>
+                <a href="">Quy chế hoạt động Sàn GDTMĐT</a>
+                <a href="">Bán hàng cùng Tiki</a>
+                <h4>Chứng nhận bởi</h4>
+                <div class="certification">
+                  <img
+                    src="./assets/img/bo-cong-thuong-2.png"
+                    alt=""
+                    class="img"
+                  />
+                  <img
+                    src="./assets/img/bo-cong-thuong.svg"
+                    alt=""
+                    class="sub-img"
+                  />
+                </div>
+              </div>
+              <div class="block">
+                <h4>Phương thức thanh toán</h4>
+                <img
+                  src="./assets/img/brand-icon.png"
+                  alt=""
+                  class="icon-img"
+                />
+                <h4>Dịch vụ giao hàng</h4>
+                <a href="" class="service-icon"
+                  ><img
+                    src="./assets/img/tiki-now.png"
+                    alt=""
+                    class="img-service"
+                /></a>
+              </div>
+              <div class="block">
+                <h4>Kết nối với chúng tôi</h4>
+                <div class="socials">
+                  <i class="socials-icon ti-facebook"></i>
+                  <i class="socials-icon ti-youtube"></i>
+                  <i class="socials-icon ti-headphone"></i>
+                </div>
+                <h4>Tải ứng dụng trên điện thoại</h4>
+                <div class="download">
+                  <img
+                    src="./assets/img/qr-download.png"
+                    alt=""
+                    class="qr-img"
+                  />
+                  <div class="store">
+                    <img
+                      src="./assets/img/appstore.png"
+                      alt=""
+                      class="store-img"
+                    />
+                    <img
+                      src="./assets/img/playstore.png"
+                      alt=""
+                      class="store-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr style="width: 100%; text-align: left; margin-left: 0" />
+            <div class="middle-footer">
+              <div class="block" style="height: 90px; width: 60%">
+                <span
+                  >Địa chỉ văn phòng: 52 Út Tịch, phường 4, quận Tân Bình, thành
+                  phố Hồ Chí Minh</span
+                >
+                <span
+                  >Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ
+                  trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử
+                  lý đơn hàng</span
+                >
+                <span
+                  >Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế
+                  hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày
+                  06/01/2010</span
+                >
+                <span
+                  >© 2021 - Bản quyền của Công Ty Cổ Phần Ti Ki - Tiki.vn</span
+                >
+              </div>
+            </div>
+            <hr style="width: 100%; text-align: left; margin-left: 0" />
+            <div class="sub-footer">
+              <div class="block" style="height: 150px; width: 100%">
+                <h4>Tiki - Thật nhanh, thật chất lượng, thật rẻ</h4>
+                <h2>Tiki có tất cả</h2>
+                <span
+                  >Với hàng triệu sản phẩm từ các thương hiệu, cửa hàng uy tín,
+                  hàng nghìn loại mặt hàng từ Điện thoại smartphone tới Rau củ
+                  quả tươi, kèm theo dịch vụ giao hàng siêu tốc TikiNOW, Tiki
+                  mang đến cho bạn một trải nghiệm mua sắm online bắt đầu bằng
+                  chữ tín. Thêm vào đó, ở Tiki bạn có thể dễ dàng sử dụng vô vàn
+                  các tiện ích khác như mua thẻ cào, thanh toán hoá đơn điện
+                  nước, các dịch vụ bảo hiểm.</span
+                >
+                <h2>Khuyến mãi, ưu đãi tràn ngập</h2>
+                <span
+                  >Bạn muốn săn giá sốc, Tiki có giá sốc mỗi ngày cho bạn! Bạn
+                  là tín đồ của các thương hiệu, các cửa hàng Official chính
+                  hãng đang chờ đón bạn. Không cần săn mã freeship, vì Tiki đã
+                  có hàng triệu sản phẩm trong chương trình Freeship+, không
+                  giới hạn lượt đặt, tiết kiệm thời gian vàng bạc của bạn. Mua
+                  thêm gói TikiNOW tiết kiệm để nhận 100% free ship 2h & trong
+                  ngày, hoặc mua gói TikiNOW cao cấp để nhận được 100% freeship,
+                  áp dụng cho 100% sản phẩm, 100% tỉnh thành Việt Nam. Bạn muốn
+                  tiết kiệm hơn nữa? Đã có TikiCARD, thẻ tín dụng Tiki hoàn tiền
+                  15% trên mọi giao dịch (tối đa hoàn 600k/tháng)
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

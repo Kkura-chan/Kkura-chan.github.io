@@ -1,0 +1,47 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: flex;
+    max-width: 100%;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.grid__row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__col-1 {
+    width: 16.6666%;
+}
+
+.grid__col-4 {
+    width: 66.6667%;
+}
+
+.grid__col-2 {
+    width: 33.3333%;
+}
+
+
+
+
+
+
+
